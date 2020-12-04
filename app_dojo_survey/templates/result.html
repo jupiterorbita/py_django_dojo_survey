@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <style>
+      body * {
+        font-family: sans-serif;
+      }
+      .wrapper {
+        width: 400px;
+        min-height: 200px;
+        border: 2px solid black;
+        margin: 0 auto;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>submitted info</h1>
+      <hr />
+      <p>Name: {{ name }}</p>
+      <p>Location: {{ loc }}</p>
+      <p>Comment: {{ comment }}</p>
+    </div>
+  </body>
+</html>
